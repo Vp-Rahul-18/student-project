@@ -2,14 +2,25 @@ body{
   font-family:Arial;
   background-color: lightblue;
   text-allign:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  margin:0;
 }
+
 h1{
   color: red;
 }
+
 img{
   width:200px;
   border-radius:10px;
+  display:block;
+  margin:10px;
 }
+
 p{
   font-size:18px;
 }
